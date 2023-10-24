@@ -1,2 +1,3 @@
 # bootcamp-CSS
-This is practice for bootcamp day 3 css practice
+
+This is CSS practices for bootcamp Week-1, day 3, week-2, day 1
