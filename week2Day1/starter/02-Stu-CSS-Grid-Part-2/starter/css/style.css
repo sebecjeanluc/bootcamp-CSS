@@ -61,11 +61,42 @@ body {
 	margin: 50px auto;
 }
 
+#box1 {
+	grid-area: box1;
+	background-image: url(../images/bookcases.png);
+}
+#box2 {
+	grid-area: box2;
+	background-image: url(../images/beds.png);
+}
+#box3 {
+	grid-area: box3;
+	background-image: url(../images/patio.png);
+}
+#box4 {
+	grid-area: box4;
+	background-image: url(../images/couch.png);
+}
+#box5 {
+	grid-area: box5;
+	background-image: url(../images/desks.png);
+}
+
+#boxContainer {
+	margin: 0px 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 300px 300px 300px;
+	grid-template-areas:
+		'box1 box2 box3'
+		'box4 box4 box3'
+		'box5 box5 box5';
+}
+
 #categoryGrid {
 	margin: 0px 5%;
 	display: grid;
 	grid-template-rows: 300px 300px 300px;
-	grid-template-areas: 3;
 }
 .categoryGridArea {
 	/* display: grid; */
